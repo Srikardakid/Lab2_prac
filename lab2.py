@@ -13,12 +13,12 @@ def get_user_data():
         arr.append(float(z))
     return arr
 def find_min_max(y):
-    min = min(y)
-    max = max(y)
-    print("Minimum:", min)
-    print("Maximum:",max)
-def sort_temperature():
-    sort = sorted(num_list)
+    min_val = min(y)
+    max_val = max(y)
+    print("Minimum:", min_val)
+    print("Maximum:",max_val)
+def sort_temperature(y):
+    sort = sorted(y)
     print(sort)
 
 
